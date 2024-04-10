@@ -1,0 +1,11 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  overflow-y: auto;
+  height: calc(100vh - 8rem); /* ヘッダーとフッターの高さの合計 */
+}
+.text-center {
+  text-align: center;
+}
